@@ -19,6 +19,7 @@
 		C40DCC4817F684AE0004B02D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C40DCC4717F684AE0004B02D /* ViewController.m */; };
 		C40DCC4B17F684AE0004B02D /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C40DCC4917F684AE0004B02D /* ViewController_iPhone.xib */; };
 		C40DCC4E17F684AE0004B02D /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C40DCC4C17F684AE0004B02D /* ViewController_iPad.xib */; };
+		C40DCC5617F684C20004B02D /* modelAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = C40DCC5517F684C20004B02D /* modelAlert.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		C40DCC4717F684AE0004B02D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C40DCC4A17F684AE0004B02D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		C40DCC4D17F684AE0004B02D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		C40DCC5417F684C20004B02D /* modelAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modelAlert.h; sourceTree = "<group>"; };
+		C40DCC5517F684C20004B02D /* modelAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = modelAlert.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 		C40DCC3417F684AD0004B02D /* testmodelalert */ = {
 			isa = PBXGroup;
 			children = (
+				C40DCC5417F684C20004B02D /* modelAlert.h */,
+				C40DCC5517F684C20004B02D /* modelAlert.m */,
 				C40DCC3D17F684AD0004B02D /* AppDelegate.h */,
 				C40DCC3E17F684AD0004B02D /* AppDelegate.m */,
 				C40DCC4617F684AE0004B02D /* ViewController.h */,
@@ -180,6 +185,7 @@
 				C40DCC3B17F684AD0004B02D /* main.m in Sources */,
 				C40DCC3F17F684AD0004B02D /* AppDelegate.m in Sources */,
 				C40DCC4817F684AE0004B02D /* ViewController.m in Sources */,
+				C40DCC5617F684C20004B02D /* modelAlert.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
