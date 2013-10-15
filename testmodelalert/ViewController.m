@@ -27,12 +27,10 @@
 }
 
 - (IBAction)test:(id)sender {
-    dispatch_async(dispatch_get_main_queue(), ^{
-        [self performSelectorOnMainThread:@selector(test) withObject:nil waitUntilDone:YES];
-    });
+    [self showAlert];
     
 }
-- (void)test
+- (void)showAlert
 {
     int d = [[modelAlert alloc] showModelAlertMsg:@"模态对话框" title:@"test" okBtn:@"确定" cancelBtn:@"取消" otherBtn:@"其他1",@"其他2",nil];
     NSLog(@"%d",d);
